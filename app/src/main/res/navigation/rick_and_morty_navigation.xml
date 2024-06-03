@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rick_and_morty_navigation"
+    app:startDestination="@id/rickAndMortyFeedFragment">
+
+    <fragment
+        android:id="@+id/rickAndMortyFeedFragment"
+        android:name="com.huseyin.rickandmortyapi.view.RickAndMortyFeedFragment"
+        android:label="RickAndMortyFeedFragment" >
+        <action
+            android:id="@+id/action_rickAndMortyFeedFragment_to_rickAndMortyDetailsFragment"
+            app:destination="@id/rickAndMortyDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rickAndMortyDetailsFragment"
+        android:name="com.huseyin.rickandmortyapi.view.RickAndMortyDetailsFragment"
+        android:label="fragment_rick_and_morty_details"
+        tools:layout="@layout/fragment_rick_and_morty_details" >
+        <action
+            android:id="@+id/action_rickAndMortyDetailsFragment_to_rickAndMortyFeedFragment"
+            app:destination="@id/rickAndMortyFeedFragment" />
+        <argument
+            android:name="countryUuid"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

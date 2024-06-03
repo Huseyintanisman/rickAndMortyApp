@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".view.RickAndMortyDetailsFragment">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/rickAndMortyImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher_round"
+        android:minHeight="200dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="222dp"
+        android:background="#3C3A6A" />
+
+    <TextView
+        android:id="@+id/rickAndMortyName"
+        android:layout_margin="10dp"
+        android:text="CountryName"
+        android:layout_centerHorizontal="true"
+        android:textColor="#57FF31"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rickAndMortyImage" />
+
+    <TextView
+        android:id="@+id/rickAndMortyStatus"
+        android:layout_margin="10dp"
+        android:textColor="#EE00FF"
+        android:text="CountryCapital"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rickAndMortyName" />
+
+    <TextView
+        android:id="@+id/rickAndMortyID"
+        android:textColor="#FFFAFF"
+        android:layout_margin="10dp"
+        android:text="CountryRegion"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rickAndMortyStatus" />
+
+    <TextView
+        android:id="@+id/rickAndMortyGender"
+        android:layout_margin="10dp"
+        android:text="CountryCurrency"
+        android:textColor="#FFFAFF"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rickAndMortyID" />
+
+    <TextView
+        android:id="@+id/RickAndMortySpecies"
+        android:layout_margin="10dp"
+        android:textColor="#FFFAFF"
+        android:text="CountryLanguage"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rickAndMortyGender" />
+    <TextView
+        android:id="@+id/RickAndMortyUrl"
+        android:layout_margin="10dp"
+        android:textColor="#F9FFE9"
+        android:text="CountryLanguage"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RickAndMortySpecies" />
+    <TextView
+        android:id="@+id/RickAndMortyCreated"
+        android:layout_margin="2dp"
+        android:textColor="#F9FFE9"
+        android:text="CountryLanguage"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RickAndMortyUrl" />
+</RelativeLayout>
