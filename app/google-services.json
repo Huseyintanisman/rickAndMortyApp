@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "48854212776",
+    "project_id": "rickandmortyap-442c8",
+    "storage_bucket": "rickandmortyap-442c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48854212776:android:96d3cd7c08b1036d24629d",
+        "android_client_info": {
+          "package_name": "com.huseyin.rickandmortyapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPPx2fNXMC6XOe9oASKNrDNPbWjowzwDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
